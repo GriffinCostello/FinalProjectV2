@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <link rel="manifest" href="manifest.json">
+  <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,400&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title id="title">Anime Database</title>
+    
+    <!-- include an external style sheet -->
+    <link rel="stylesheet" href="style.css">  
+    
+    <!-- include an external JavaScript file -->
+    <script src="myscript.js"></script>
+  </head>
+  
+  <body>
+    <div id="pageTitle">
+		<h1>Anime Database</h1>
+	</div>
+	<div class="top">
+		<div id="searchBarContainer">
+				<input type="text" placeholder="Search an anime.." id="search" name="search" spellcheck="false">
+				<button id="searchButton" onclick="fetchAnime()"><i class="fa fa-search"></i></button>
+		</div>
+	</div>
+	<p id="quote">Search your favourite anime and you will be provided with a ton of information!</p>
+	<div id="main">
+     </div>
+	 
+	 
+  </body>
+  
+</html>
